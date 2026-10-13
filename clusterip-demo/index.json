@@ -1,12 +1,42 @@
 {
-  "title": "ClusterIP Demo",
-  "description": "Kubernetes Service Demo",
+  "title": "Kubernetes ClusterIP Complete Lab",
+  "description": "Learn Deployments, Services, Scaling and Troubleshooting",
   "difficulty": "beginner",
-  "time": "10 minutes",
+  "time": "45 minutes",
   "details": {
     "intro": {
       "text": "intro.md"
     },
+    "steps": [
+      {
+        "title": "Create Deployment",
+        "text": "step2.md"
+      },
+      {
+        "title": "Create ClusterIP Service",
+        "text": "step3.md"
+      },
+      {
+        "title": "Verify the ClusterIP",
+        "text": "step4.md"
+      },
+      {
+        "title": "Test Connectivity",
+        "text": "step5.md"
+      },
+      {
+        "title": "Scale the Application",
+        "text": "step6.md"
+      },
+      {
+        "title": "Troubleshooting",
+        "text": "step7.md"
+      },
+      {
+        "title": "Cleanup",
+        "text": "step8.md"
+      }
+    ],
     "finish": {
       "text": "finish.md"
     }
